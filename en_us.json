@@ -1,0 +1,11 @@
+{
+  "itemGroup.skyrotor": "SkyRotor",
+  "item.skyrotor.helicopter_spawner": "Helicopter Spawner",
+  "entity.skyrotor.helicopter": "Helicopter",
+  "key.categories.skyrotor": "SkyRotor Controls",
+  "key.skyrotor.engine": "Start / stop engine (hold 2 seconds)",
+  "key.skyrotor.bomb": "Drop fireball bomb (V)",
+  "key.skyrotor.descend": "Descend (Left Alt)",
+  "message.skyrotor.engine_on": "Engine started — taking off!",
+  "message.skyrotor.engine_off": "Engine stopped"
+}

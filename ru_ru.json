@@ -1,0 +1,11 @@
+{
+  "itemGroup.skyrotor": "SkyRotor — Вертолёт",
+  "item.skyrotor.helicopter_spawner": "Создатель вертолёта",
+  "entity.skyrotor.helicopter": "Вертолёт",
+  "key.categories.skyrotor": "Управление вертолётом",
+  "key.skyrotor.engine": "Запустить / выключить двигатель (удерживать 2 секунды)",
+  "key.skyrotor.bomb": "Сбросить огненный шар (V)",
+  "key.skyrotor.descend": "Снижение (Left Alt)",
+  "message.skyrotor.engine_on": "Двигатель запущен — взлёт!",
+  "message.skyrotor.engine_off": "Двигатель выключен"
+}

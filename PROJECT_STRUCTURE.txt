@@ -1,0 +1,35 @@
+SkyRotor/
+├── .github/
+│   └── workflows/
+│       └── build.yml                 # GitHub Actions: builds the mod and uploads the JAR
+├── gradle/
+│   └── wrapper/
+│       └── gradle-wrapper.properties # Gradle 8.1.1 distribution
+├── src/
+│   └── main/
+│       ├── java/dev/skyrotor/
+│       │   ├── SkyRotor.java         # Mod entry point
+│       │   ├── client/
+│       │   │   ├── ClientKeys.java   # K, V, Alt and flight input
+│       │   │   ├── ClientModEvents.java # Renderer registration
+│       │   │   ├── model/HelicopterModel.java # 3D helicopter model + rotor animation
+│       │   │   └── render/HelicopterRenderer.java # Entity renderer
+│       │   ├── entity/HelicopterEntity.java # Seats, engine, flight physics and fireball drop
+│       │   ├── item/HelicopterSpawnerItem.java # Item that places the helicopter
+│       │   ├── network/NetworkHandler.java # Client/server packets
+│       │   └── registry/
+│       │       ├── ModEntities.java   # Helicopter entity type
+│       │       ├── ModItems.java     # Helicopter spawner item
+│       │       └── ModTabs.java      # Creative inventory tab
+│       └── resources/
+│           ├── META-INF/mods.toml    # Forge mod metadata
+│           ├── assets/skyrotor/
+│           │   ├── lang/             # English and Russian translations
+│           │   ├── models/item/      # Spawner item model
+│           │   └── textures/         # Helicopter and item textures
+│           └── pack.mcmeta
+├── build.gradle                     # ForgeGradle build configuration
+├── gradle.properties                # MC, Forge and mod versions
+├── settings.gradle
+├── gradlew / gradlew.bat             # Gradle launchers
+└── README.md
